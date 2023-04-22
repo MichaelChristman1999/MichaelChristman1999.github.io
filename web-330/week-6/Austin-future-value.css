@@ -1,0 +1,36 @@
+/**
+    Title: Austin-future-value.css
+    Author: William Austin 
+    Date: 04/22/2023
+    Description: Styling for Future Value App
+ */
+ 
+.danger{
+    float: right;
+    color: #df546a;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.form-label{
+    display: inline-block;
+    padding-top: 1rem;
+}
+#btnCalculate{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 15px 32px;
+    width: 50%;
+}
+.expert{
+    padding-bottom: 20px;
+}
+.form{
+    padding: 20px;
+    padding-right: 40px;
+}
