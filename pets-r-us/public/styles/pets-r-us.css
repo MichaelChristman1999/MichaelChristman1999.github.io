@@ -1,25 +1,25 @@
 /**
-    Title: site.css
+    Title: pets-r-us.css
     Author:Michael Christman 
     Date: April 9th, 2023
     Description: External stylesheet for the WEB 340 Pets R Us final project
 */
 
 .primary-container{
-    background-color:rgb(203, 218, 228) ;
+    background-color:#F5F5DC;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(174, 190, 203);
+    background-color: #AECFEB;
 }
 #services-card{
     list-style-type:circle;
     margin: 10px;
-    background-color: rgb(200, 214, 223);
-    box-shadow: 0 4px 8px 0 rgb(44, 44, 53);
+    background-color: #F5F5DC;
+    box-shadow: 0 4px 8px 0 #5B5B75;
     transition: 0.3s;
    
 }
@@ -36,7 +36,7 @@ float: left;
     display: none;
     list-style: none;
     position: absolute;
-    background-color: #fff;
+    background-color: #F5E9E9;
     padding: 0;
     margin: 0;
 }
@@ -50,7 +50,7 @@ float: left;
 .woman-and-dog-image{
     position: relative;
     text-align: center;
-    color:white
+    color:#FFFFFF;
 }
 .center-align{
     position: absolute;
@@ -74,7 +74,7 @@ float: left;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 150px;
-    border: 5px solid rgb(60, 63, 93);
+    border: 5px solid #6e8d9c;
     border-radius: 16px;
 }
 li{
@@ -85,29 +85,29 @@ hr{
     width: 60%;
     margin-right: auto;
     margin-left: auto;
-    border: 3px solid rgb(186, 202, 216);
+    border: 3px solid #b3e6c9;
 }
 .navigation-link{
     display: block;
     text-decoration: none;
-    color: rgb(42, 55, 67);
+    color:#692fb5;
     text-align: center;
     padding: 16px;
     font-size: large;
 }
 .navigation-link:hover{
-    background-color: rgb(135, 135, 135);
-    color:rgb(189, 215, 215);
+    background-color: #c9bfbf;
+    color:#88b2bf;
 }
 .header{
     text-align: left;
     padding-left: 8%;
     font-size: 84px;
-    background-color: rgb(186, 202, 216);
+    background-color: #d3a1d4;
 }
 .masthead{
     text-decoration: none;
-    color: rgb(42, 55, 67);
+    color: #2e6675;
 }
 h3 {
     line-height: 1.5em;
@@ -131,7 +131,7 @@ h2, h1 {
 }
 #about-us{
     margin-top: 50px;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 #0c0d0d;
     transition: 0.3s;
     padding: 20px;
 }
@@ -143,9 +143,9 @@ h2, h1 {
     padding: 20px;
     line-height: 1.3em;
     letter-spacing: 2px;
-    border: 1pt solid rgb(43, 43, 43);
+    border: 1pt solid #a64646;
     border-radius: 24px;
-    background-color: rgb(200, 214, 223);
+    background-color: #10eb7e;
 }
 #meadows{
     float: inline-end;
@@ -158,7 +158,7 @@ h2, h1 {
     margin-top: 50px;
 }
 #pet-of-the-week{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 #5c5656;
     transition: 0.3s;
     padding: 10px;
     padding-left: 30px;
@@ -168,11 +168,11 @@ h2, h1 {
     margin-top: 100px;
 }
 #pet-of-the-week:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 #5c5656;
 }
 #testimonials-card {
     margin-top: 100px;
-    background-color: rgb(223, 231, 236);
+    background-color: #aed0e6;
     padding: 10px;
     padding-bottom: 40px;
 }
@@ -184,7 +184,7 @@ h2, h1 {
     letter-spacing: 2px;
     line-height: 1.6;
     width: 55%;
-    background-color: rgb(222, 233, 240);
+    background-color: #4d8bb3;
 }
 #contact-information{
     margin-left: auto;
@@ -203,7 +203,7 @@ p{
 }
 
 #btnSend{
-  background-color: #04aaa7;
+  background-color:#044caa;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -220,7 +220,7 @@ form{
 footer {
     margin-top: 50px;
     width: 100%;
-    background-color: rgb(186, 202, 216);
+    background-color: #ed4ed3;
     padding: 20px;
     align-items: center;
     font-size: 14px;
