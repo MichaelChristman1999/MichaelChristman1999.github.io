@@ -1,13 +1,12 @@
 /*
     ==================
     Title: float-field.js
-    Author: William Austin
-    Date: 4/22/2023
-    Description: Creating a Float Field Module for Future Value App
+    Author: Michael Christman
+    Date: April 22nd, 2023
+    Description: A float field class module I created for the Future Value App from week 6
 */
 
 "use-strict";
-
 export class FloatField {
     constructor(name, field){
         this.name = name;
