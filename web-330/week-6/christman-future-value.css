@@ -1,13 +1,13 @@
 /**
-    Title: Austin-future-value.css
-    Author: William Austin 
-    Date: 04/22/2023
-    Description: Styling for Future Value App
+    Title: christman-future-value.css
+    Author: Michael Christman
+    Date: April 22nd, 2023
+    Description: Main external stylesheet for the Future Value App assignment from week 6
  */
  
 .danger{
     float: right;
-    color: #df546a;
+    color: #DF546A;
     font-size: 12px;
     letter-spacing: 2px;
 }
