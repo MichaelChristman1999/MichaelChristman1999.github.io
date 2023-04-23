@@ -1,14 +1,13 @@
 /*
     ==================
     Title: float-max-field.js
-    Author: William Austin
-    Date: 4/22/2023
-    Description: Creating a Float Field Max Module for Future Value App
+    Author: Michael Christman
+    Date: April 22nd, 2023
+    Description: A float field max module I created for Future Value App assignment from week 6
 */
 
 "use-strict";
-
-export class FloatMaxField {
+export class FloatFieldMax {
     constructor (name, field, max){
         this.name = name;
         this.field = field;
