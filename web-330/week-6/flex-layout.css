@@ -1,12 +1,8 @@
 /**
     Title: flex-layout.css
-    Author: William Austin 
-    Date: 04/22/2023
-    Description: Styling to build a reusable flex layout
-    Sources:
-        Professor Krasso: https://github.com/buwebdev/web-330/blob/master/styles/flex-layout.css
-        Bootstrap: https://github.com/twbs/bootstrap
-        Angular FlexLayout: https://github.com/angular/flex-layout
+    Author: Michael Christman
+    Date: April 22nd , 2023
+    Description: Styles to design a flexible layout
  */
 :root {
     --col-1: 8.33%;
