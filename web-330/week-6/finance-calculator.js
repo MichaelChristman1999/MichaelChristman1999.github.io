@@ -1,8 +1,8 @@
 /*
     ==================
     Title: finance-calculator.js
-    Author: William Austin
-    Date: April, 22nd, 2023
+    Author: Michael Christman
+    Date: April 22nd, 2023
     Description: A finance calculator module I created for the Future Value App
 */
 
