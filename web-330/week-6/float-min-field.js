@@ -1,14 +1,14 @@
 /*
     ==================
     Title: float-min-field.js
-    Author: William Austin
-    Date: 4/22/2023
-    Description: Creating a Float Field Min Module for Future Value App
+    Author: Michael Christman
+    Date: April 22nd, 2023
+    Description:A float field min Module I created for the Future Value App assignment
 */
 
 "use-strict";
 
-export class FloatMinField {
+export class FloatFieldMin {
     constructor (name, field, min){
         this.name = name;
         this.field = field;
