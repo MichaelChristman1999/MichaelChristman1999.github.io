@@ -1,9 +1,9 @@
 /*
     ==================
     Title: required-field.js, 
-    Author: William Austin
-    Date: 4/22/2023
-    Description: Creating a Required Field Module for Future Value App
+    Author: Michael Christman
+    Date: April 22nd, 2023
+    Description: A required field module I created for the Future Value App assignment from week 6
 */
 "use-strict";
 
