@@ -18,6 +18,9 @@ class Header extends HTMLElement
                     <a href="about-page.html">About</a>
                     </li>
                     <li class="navigation">
+                    <a href="hobbies-page.html">Hobbies</a>
+                    </li>
+                    <li class="navigation">
                     <a href="christman-resume.html">Resume</a>
                     </li>
                     <li class="navigation">
