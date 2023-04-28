@@ -1,31 +1,32 @@
 .column {
+    background-color: #57C98E;
+    box-shadow: 0 4px 8px 0 #000000;
     float: left;
-    width: 30%;
     margin-left: 20px;
     margin-bottom: 15px;
-    border: 1px solid black;
     padding: 5px;
-    background-color: #57C98E;
+    width: 30%;
+    transition: 0.4s;
   }
   
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-.projects-master{
-    background-color: #d4f8e5;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
 .project-link{
     padding:0%;
     text-decoration: underline;
 
 }
 .project-link:hover{
-    background-color: rgb(0, 0, 0);
-    color:beige;
+    background-color: #000000;
+    color:#F5F5DC;
 
 }
+
+.projects-master{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
