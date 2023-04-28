@@ -10,7 +10,7 @@
 }
 #banner{
     background-color: #8AECFF;
-    color: rgb(32, 55, 55);
+    color: #203764;
     text-align: center;
     font-style: italic;
     font-size: 20pt;
@@ -32,12 +32,12 @@
 
 a{
     text-decoration: none;
-    color: darkslategray;
+    color: #2F4F4F;
     padding: 10px;
 }
 a:visited{
     text-decoration: none;
-    color: rgb(32, 55, 55);
+    color: #203764;
 }
 a:hover{
     text-decoration: underline;
@@ -61,6 +61,6 @@ a:hover{
     line-height: 2em;
 }
 #bucket-list-master{
-    background-color: #d4f8e5;
+    background-color: #D4F8E5;
     padding: 20px;
 }
