@@ -8,6 +8,7 @@
 .primary-container{
     background-color:#F5F5DC;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,6 +16,7 @@ ul {
     overflow: hidden;
     background-color: #AECFEB;
 }
+
 #services-card{
     list-style-type:circle;
     margin: 10px;
@@ -23,15 +25,18 @@ ul {
     transition: 0.3s;
    
 }
+
 .pet-services{
 list-style-type:circle;
 padding: 20px;
 float: left;
 }
+
 #pet-services-menu{
     margin-top: 50px;
     width:30%;
 }
+
 .hidden-navigation-list{
     display: none;
     list-style: none;
@@ -40,6 +45,7 @@ float: left;
     padding: 0;
     margin: 0;
 }
+
 .hidden-navigation {
     display: block;
     padding: 10px;
@@ -47,11 +53,12 @@ float: left;
     text-decoration: none;
 }
 
-.woman-and-dog-image{
+.main-image{
     position: relative;
     text-align: center;
     color:#FFFFFF;
 }
+
 .center-align{
     position: absolute;
     top: 50%;
@@ -59,6 +66,7 @@ float: left;
     transform: translate(-50%, -50%);
     font-size: 110px;
 }
+
 .center-align-2{
     position: absolute;
     top: 50%;
@@ -66,9 +74,11 @@ float: left;
     transform: translate(-50%, -50%);
     font-size: 110px;
 }
+
 #young-woman-pet-dog{
     width: 100%;
 }
+
 #dog-of-the-week{
     width: 45%;
     margin-top: 25px;
@@ -77,6 +87,7 @@ float: left;
     border: 5px solid #6e8d9c;
     border-radius: 16px;
 }
+
 li{
     float: right;
 }
@@ -87,6 +98,7 @@ hr{
     margin-left: auto;
     border: 3px solid #b3e6c9;
 }
+
 .navigation-link{
     display: block;
     text-decoration: none;
@@ -95,36 +107,44 @@ hr{
     padding: 16px;
     font-size: large;
 }
+
 .navigation-link:hover{
     background-color: #c9bfbf;
     color:#88b2bf;
 }
+
 .header{
     text-align: left;
     padding-left: 8%;
     font-size: 84px;
     background-color: #d3a1d4;
 }
+
 .masthead{
     text-decoration: none;
     color: #2e6675;
 }
+
 h3 {
     line-height: 1.5em;
 }
+
 #subheader {
     text-align: center;
 }
-h2, h1 {
+
+h1, h2 {
     text-align: center;
     text-transform: uppercase;
 }
+
 .card {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 75px;
 }
+
 .card-contents{
     padding-top: 10px;
     padding-bottom: 40px;
@@ -135,9 +155,11 @@ h2, h1 {
     transition: 0.3s;
     padding: 20px;
 }
+
 #grooming-card{
     margin-top: 115px;
 }
+
 #grooming-paragraph-section{
     font-weight:lighter;
     padding: 20px;
@@ -147,16 +169,20 @@ h2, h1 {
     border-radius: 24px;
     background-color: #10eb7e;
 }
+
 #meadows{
     float: inline-end;
     text-align: right;
 }
+
 #midtown{
     float: inline-start;
 }
+
 #locations{
     margin-top: 50px;
 }
+
 #pet-of-the-week{
     box-shadow: 0 4px 8px 0 #5c5656;
     transition: 0.3s;
@@ -167,15 +193,18 @@ h2, h1 {
     width: 45%;
     margin-top: 100px;
 }
+
 #pet-of-the-week:hover{
     box-shadow: 0 8px 16px 0 #5c5656;
 }
+
 #testimonials-card {
     margin-top: 100px;
     background-color: #aed0e6;
     padding: 10px;
     padding-bottom: 40px;
 }
+
 .customer-testimonial {
     text-align: center;
     margin-left: auto;
@@ -186,6 +215,7 @@ h2, h1 {
     width: 55%;
     background-color: #4d8bb3;
 }
+
 #contact-information{
     margin-left: auto;
     margin-right: auto;
@@ -195,14 +225,16 @@ h2, h1 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 h4{
     display: inline;
 }
+
 p{
     display: inline;
 }
 
-#btnSend{
+#btnSubmitForm{
   background-color:#044caa;
   border: none;
   color: white;
@@ -230,6 +262,6 @@ footer {
   .contact-info {
     text-align: center;
   }
-#email-address{
+#user-email-field{
     padding-left: 20px;
 }
