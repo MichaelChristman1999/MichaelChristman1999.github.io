@@ -21,8 +21,9 @@ mongoose.connect(CONN).then(() => {
     console.log('MongoDB Error: ' + err.message);
 });
 
-//Import statement for customer schema
+//Import statement for customers and appointment schemas
 const Customer = require('./models/customer');
+const Appointment = require('./models/appointments');
 
 //This variable enables access for the application to utilize Express.js
 const app = express();
@@ -78,6 +79,22 @@ app.get('/boarding', (req, res) => {
         message: 'Boarding Appointments Page'
     })
 })
+
+app.get('/customers', (req, res) => {
+    Customer.find({}, function(err, customers){
+        if (err) {
+            console.log(err);
+            next(err);
+        } else {
+            res.render('customer-list', {
+                title: 'Pets-R-Us Customer List',
+                message: 'Customer List',
+                customers: customers
+            })
+        }
+    })   
+})
+
 
 //If server receives <petsrus/registration> the user will be routed to the registration page
 app.get('/registration', (req, res) => {
