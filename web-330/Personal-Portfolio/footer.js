@@ -13,6 +13,7 @@ class Footer extends HTMLElement
                     <li class="nav"><a href="https://www.youtube.com/@bellevueuniversity/featured">YouTube Channel</a></li>
                     <li class="nav"><a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/">Bellevue University</a></li>
                 </ul>
+                <p>You can contact me via email at mchristm19@gmail.com</p>
             </div>
         `;
     }
