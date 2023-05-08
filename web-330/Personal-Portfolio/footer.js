@@ -7,7 +7,7 @@ class Footer extends HTMLElement
     connectedCallback() {
         this.innerHTML = `
             <div id="footer">
-                <ul id="footer-bar">
+                <ul id="footer-bar" style="list-style-type:"none">
                     <li class="nav"><a href="https://github.com/MichaelChristman1999/MichaelChristman1999.github.io">GitHub Repository</a></li>
                     <li class="nav"><a href="https://github.com/buwebdev/web-330">Course GitHub Repository</a></li>
                     <li class="nav"><a href="https://www.youtube.com/@bellevueuniversity/featured">YouTube Channel</a></li>
