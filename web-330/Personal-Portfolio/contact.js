@@ -7,10 +7,7 @@ class Contact extends HTMLElement
     connectedCallback() {
         this.innerHTML = `
             <div id="contact">
-                <h3>mchristm19@gmail.com</h3>
-                <h3>011-001-1999</h3>
-                <h3>Kenosha, WI</h3>
-                <h3>www.mikobrospersonalblog.wordpress.com</h3>
+                <p>mchristm19@gmail.com</p>&nbsp;<p>011-001-1999</p>&nbsp;<p>Kenosha, WI</p>&nbsp;<p>www.mikobrospersonalblog.wordpress.com</p>
             </div>
         `;
     }
