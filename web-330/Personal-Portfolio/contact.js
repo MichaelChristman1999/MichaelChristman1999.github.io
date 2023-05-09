@@ -1,13 +1,16 @@
 class Contact extends HTMLElement
 {
     constructor() {
-        super();
+        super(); 
     }
 
     connectedCallback() {
         this.innerHTML = `
             <div id="contact">
-                <p>mchristm19@gmail.com</p>&nbsp;<p>011-001-1999</p>&nbsp;<p>Kenosha, WI</p>&nbsp;<p>www.mikobrospersonalblog.wordpress.com</p>
+                <p style="display:inline">mchristm19@gmail.com</p>
+                <p style="display:inline">011-001-1999</p>
+                <p style="display:inline">Kenosha, WI</p>
+                <p style="display:inline">www.mikobrospersonalblog.wordpress.com</p>
             </div>
         `;
     }
