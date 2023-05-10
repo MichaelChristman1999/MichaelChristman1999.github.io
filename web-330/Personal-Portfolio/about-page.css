@@ -21,16 +21,16 @@
   }
 
   #about-master{
-    background-color: #00A9BF;
+    background-color: #9966CB;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     padding: 25px;
-    width: 85%;
+    width: 70%;
   }
 
   #about-contents{
     line-height: 1.2em;
-    letter-spacing: 1pt;
+    letter-spacing: 1.5pt;
   }
