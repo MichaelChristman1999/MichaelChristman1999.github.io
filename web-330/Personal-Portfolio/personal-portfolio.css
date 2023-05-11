@@ -8,6 +8,11 @@
 *{
     font-family: 'Quattrocento', 'EB Garamond', Garamond, Arial, sans-serif;
 }
+
+body {
+   background-color: ##9966CC;
+}
+
 #banner{
     background-color: #8AECFF;
     color: #203764;
