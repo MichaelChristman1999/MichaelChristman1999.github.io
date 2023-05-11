@@ -30,3 +30,21 @@
     clear: both;
     display: table;
   }
+
+/** New styles for project cards added!*/
+
+.card-content a {
+    color: #990059;
+    text-decoration: none;
+    font-weight: 500;
+    word-spacing: .2em;
+    
+}
+
+.card-content a:hover {
+    color: #520030;
+    background-color: rgb(249, 230, 152);
+    padding: 5px;
+    border-radius: 8px;
+
+}
