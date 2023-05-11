@@ -3,8 +3,10 @@
     height: 400px;
 }
 
+/* Modify text to be positioned to right of landing page image. */
+
 .content {
-    color: #0000FF;
+    color: #000000;
     text-align: left;
     padding-top: 25px;
 }
