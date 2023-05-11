@@ -5,10 +5,13 @@
    Description: Stylesheet for the About Me page for my WEB 330 Personal Portfolio project
   */
 
-#primary-container{
-background-color: #F5F5DC;
+/** 
+body 
+{
+background color: #32CD32
 }
-   
+*/
+  
 .container {
     padding: 10px 20px;
     text-align: center;
