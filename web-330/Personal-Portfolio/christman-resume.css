@@ -8,3 +8,8 @@
     width: 80%;
     margin-bottom: 50px;
 }
+
+.card-title{
+text-align: center;
+    font-size: 1.8em;
+}
