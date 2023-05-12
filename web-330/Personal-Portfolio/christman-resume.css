@@ -2,7 +2,9 @@
     list-style:circle;
 }
 #resume-master{
-    width: 65%;
-    margin-right: auto;
-    margin-left: auto;
+   background-color: #9966CB;
+   margin: auto;
+    padding: 60px;
+    width: 80%;
+    margin-bottom: 50px;
 }
