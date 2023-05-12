@@ -1,5 +1,6 @@
+/* Projects.css file for the Personal Portfolio projects page */
 .column {
-    background-color: #57C98E;
+    background-color: #BC57C9;
     box-shadow: 0 4px 8px 0 #000000;
     float: left;
     margin-left: 20px;
@@ -31,7 +32,7 @@
     display: table;
   }
 
-/** New styles for project cards added!*/
+/* New styles for project cards added!*/
 
 .card-content a {
     color: #990059;
