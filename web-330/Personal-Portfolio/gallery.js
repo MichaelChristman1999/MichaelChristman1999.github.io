@@ -1,3 +1,5 @@
+// This is the gallery.js file from Ryan Salva WEB 200 BioSite Project
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
