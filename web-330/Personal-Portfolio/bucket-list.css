@@ -1,3 +1,5 @@
+/* Bucket list CSS stylesheet file */
+
 #bucket-image{
     width: 250px;
     height: 213px;
@@ -14,7 +16,7 @@
 .bucket-list-grid {
     width: 70%;
     margin:auto;
-    padding: 20px 00px 100px 00px;
+    padding: 20px 20px 100px 20px;
 
 }
 
