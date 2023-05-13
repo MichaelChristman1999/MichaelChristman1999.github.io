@@ -26,6 +26,24 @@
     padding-top: 10px;
 }
 
+/* New styles added for updated container and border colors */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    background-color: #4169e1;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #FF00FF;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center; 
+  }
+
+
 .row:after {
     content: "";
     clear: both;
