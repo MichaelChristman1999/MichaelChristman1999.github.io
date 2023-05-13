@@ -32,12 +32,12 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
-    background-color: #4169e1;
+    background-color: #386641;
     padding: 10px;
 }
 
 .grid-item {
-    background-color: #FF00FF;
+    background-color: #90EE90;
     padding: 20px;
     font-size: 30px;
     text-align: center; 
