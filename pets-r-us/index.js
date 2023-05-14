@@ -127,6 +127,60 @@ app.post('/register', (req, res, next) => {
     })
 })
 
+app.get('/appointments', (req, res) => {
+    let jsonFile = fs.readFileSync('./public/data/services.json');
+    let services = JSON.parse(jsonFile);
+
+    console.log(services);
+
+    res.render('appointments', {
+        title: 'Pets-R-Us Appointment Booking', 
+        message: 'Book with Pets-R-Us!',
+        services: services
+    })
+});
+
+app.post('/appointment-booked', (req, res, next) => {
+    const newAppointment = new Appointment({
+        customerId: req.body.customerId,
+        firstName: req.body.firstName,
+        lastName: req.body.lastName,
+        email: req.body.email,
+        service: req.body.service,
+    })
+    Appointment.create(newAppointment, function(err, appointment){
+        if (err) {
+            console.log(err);
+            next(err);
+        } else {
+            res.render('index',{
+                title: 'Welcome to Pets-R-Us!'
+            })
+        }
+    })
+})
+
+
+///If server receives <petsrus/my-appointments> the user will be routed to the currently booked appointments page
+
+app.get('/my-appointments', (req, res) => {
+    res.render('my-appointments', {
+        title: 'Pets-R-Us Appointments',
+        message: 'Here are the Appointments You Booked'
+    })
+})
+
+app.get('/api/appointments/:email', async(req, res, next) => {
+    Appointment.find({ email: req.params.email}, function(err, appointments) {
+        if (err) {
+            console.log(err);
+            next(err);
+        } else {
+            res.json(appointments);
+        }
+    })
+})
+
 //The app will listen to the PORT server that was created on line 31
 app.listen(PORT, () => {
     console.log('Application started and listening on PORT ' + PORT);
