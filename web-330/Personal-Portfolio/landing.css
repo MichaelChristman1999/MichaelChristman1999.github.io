@@ -1,14 +1,13 @@
 /* External CSS stylesheet for landing page styles*/
 
+/* Fix landing page image alignment*/
+
 #landing-img-1{
     vertical-align: middle;
     float: left;
     width: 300px;
     height: 400px;
     filter: brightness(75%);
-    padding-top: 25px;
-}
-
 }
 
 /* Modify text to be positioned to right of landing page image. */
