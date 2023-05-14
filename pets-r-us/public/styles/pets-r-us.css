@@ -5,6 +5,8 @@
     Description: External stylesheet for the WEB 340 Pets R Us final project
 */
 
+/* Main container and unordered list styles */
+
 .primary-container{
     background-color:#F5F5DC;
 }
@@ -26,6 +28,8 @@ ul {
    
 }
 
+/* Pet services CSS styles */
+
 .pet-services{
 list-style-type:circle;
 padding: 20px;
@@ -36,6 +40,8 @@ float: left;
     margin-top: 50px;
     width:30%;
 }
+
+/* Navigation section CSS styles */
 
 .hidden-navigation-list{
     display: none;
@@ -53,13 +59,14 @@ float: left;
     text-decoration: none;
 }
 
-.main-image{
+/* Image CSS styles */
+
+.main-grooming-image{
     position: relative;
     text-align: center;
-    color:#FFFFFF;
 }
 
-.center-align{
+.center-align-1{
     position: absolute;
     top: 50%;
     left: 20%;
@@ -73,6 +80,47 @@ float: left;
     left: 75%;
     transform: translate(-50%, -50%);
     font-size: 110px;
+}
+
+.center-align-3{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    color:rgb(49, 43, 43);
+}
+.center-align--4{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    color:white;
+}
+.center-align-5{
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    color:white;
+}
+.center-align-6 {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    color:white;
+}
+.center-align-7 {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    color:rgb(0, 0, 0);
 }
 
 #young-woman-pet-dog{
@@ -264,4 +312,72 @@ footer {
   }
 #user-email-field{
     padding-left: 20px;
+}
+th{
+    background-color: rgb(174, 190, 203);
+}
+
+th, td {
+border: 1px solid rgb(120, 124, 153);
+padding: 10px;
+}
+
+#table-header{
+    text-align: center;
+}
+
+.form{
+    border: 1.5px solid rgb(120, 124, 153);
+    background-color: rgb(186, 202, 216);
+    border-radius: 8%;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-field{
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+#email-label {
+    letter-spacing: 1.5px;
+    line-height: 2px;
+}
+
+#search{
+    background-color: #04aaa7;
+    font-size: 11pt;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#email{
+    padding: 10px;
+    width: 40%;
+}
+tr:hover{
+    background-color: rgb(174, 190, 203);
+    cursor: pointer;
+
+}
+table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(198, 219, 240);
+    padding: 10px;
+    border: 2px solid rgb(120, 124, 153);
+    border-collapse: collapse;
+}
+#customer-list{
+    margin-top: 50px;
+    box-shadow: 0 8px 16px 0 rgb(99, 110, 126);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 40%;
 }
