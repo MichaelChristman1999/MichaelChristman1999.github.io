@@ -67,7 +67,7 @@
 /* margin-top: 200px;? */
 
 #bucket-list-container{
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 /* bucket-list page styling. */
@@ -80,8 +80,8 @@
 }
 .bucket-color {
     background-color: #8F00FF;
-    margin-bottom: 30px;
-    border: 3px solid ##301934;
+    margin-bottom: 15px;
+    border: 3px solid #301934;
 }
 
 .bucket-color p{
