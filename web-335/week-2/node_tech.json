@@ -1,0 +1,43 @@
+{
+    "STUDENT": [
+        { "studentId": "6395",
+          "firstName": "Ryan",
+          "lastName": "Salva"
+    }
+],
+    "ENROLLMENT": [
+     {"term": "Summer Semester 2023",
+     "gpa": 3.9,
+     "startDate": "2023-05-17",
+     "endDate": "2023-08-18"
+    },
+    {"term": "Fall Semester 2023",
+     "gpa": 3.7,
+     "startDate": "2023-09-01",
+     "endDate": "2023-12-02"
+    }
+    ],
+    "COURSE": [
+        {
+            "courseId":"WEB-335",
+            "description":"Introduction to SQL",
+            "instructor":"Richard Krasso",
+            "score": 98,
+            "letterGrade": "A+"
+       },
+        {
+            "courseId":"WEB-425",
+            "description":"Angular with TypeScript",
+            "instructor":"Peter Itskovich",
+            "score": 93,
+            "letterGrade": "A"
+        },
+        {
+            "courseId":"WEB-430",
+            "description":"DevOps",
+            "instructor":"Robert Kumar",
+            "score": 90,
+            "letterGrade": "A-"
+        }
+    ]
+}

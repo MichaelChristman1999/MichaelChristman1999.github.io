@@ -1,0 +1,49 @@
+{
+    "CUSTOMER": [
+        { "_id": "200",
+          "firstName": "Michael",
+          "lastName": "Christman",
+          "dateOfBirth": "1999-11-01",
+          "username": "mchristman"
+    }
+],
+    "INVOICE": [
+     {"_id": "3000",
+     "createDate": "2023-05-31",
+     "shipDate": "2023-06-03",
+     "subtotal": 65.0
+    },
+    {
+        "_id":"3001",
+        "createDate":"2023-06-04",
+        "shipDate":"2023-06-08",
+        "subtotal": 40.0
+    },
+    {
+        "_id":"3002",
+        "createDate":"2023-06-10",
+        "shipDate":"2023-06-14",
+        "subtotal": 55.0
+    }
+    ],
+    "LINEITEM": [
+        {
+            "_id":"3000",
+            "productName":"JavaScript Programming Textbook",
+            "price":35.0,
+            "qty": 4
+        },
+        {
+            "_id":"3001",
+            "productName":"200 Page Theme Lined Paper Journal",
+            "price":15.0,
+            "qty": 8
+        },
+        {
+            "_id":"3002",
+            "productName":"Beginner's Guide to SQL Databases",
+            "price":25.0,
+            "qty": 6
+        }
+    ]
+}
