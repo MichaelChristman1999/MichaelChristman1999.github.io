@@ -1,0 +1,60 @@
+{
+    "name": "J.R.R. Tolkien Residence",
+    "code": 10704,
+    "address": "20 Northmoor Road, Oxford 01865, United Kingdom",
+    "authors": [
+        {
+            "firstName":"J.R.R",
+            "lastName": "Tolkien",
+            "phone":"+44-334-207-3777",
+            "email":"jrrtolkien92@yahoo.com",
+            "books":[
+                {
+                    "isbn":"978-0-34533-970-6",
+                    "name": "The Lord of the Rings: The Fellowship of the Ring",
+                    "price": 15.99
+                },
+                {
+                    "isbn":"978-0-61815-082-3",
+                    "name": "The Hobbit: Or, There and Back Again",
+                    "price": 12.99
+                },
+                {
+                    "isbn":"978-0-34551-884-2",
+                    "name": "The Children of Húrin",
+                    "price": 13.99
+                }
+            ]
+        }
+    ]
+}
+        {
+            "name": "Stephen and Tabitha King Residence",
+            "code": 10713,
+            "address": "47 W Broadway, Bangor, Maine 04401",
+            "authors": [
+                {
+                    "firstName":"Stephen",
+                    "lastName": "King",
+                    "phone":"+1-911-991-5406",
+                    "email":"sking47@yahoo.com",
+                    "books":[
+                        {
+                            "isbn":"978-1501142970",
+                            "name": "It: A Novel",
+                            "price": 19.99
+                        },
+                        {
+                            "isbn":"978-0-30774-366-4",
+                            "name": "Carrie",
+                            "price": 14.99
+                        },
+                        {
+                            "isbn":"978-1-98215-575-9",
+                            "name": "Rita Hayworth and Shawshank Redemption",
+                            "price": 10.99
+                        }
+                    ]
+                }
+            ]
+            }
