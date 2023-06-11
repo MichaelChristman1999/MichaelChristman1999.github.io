@@ -3,6 +3,10 @@
 # Date: June 10, 2023
 # Modified By: Michael Christman
 # Description: Assignment 3.2: Describing the Composer API
+# Sources Used:
+# WEB_420_Assignment_3.docx instructions
+# Swagger API Editor: https://editor-next.swagger.io/
+# YAML API Editor: https://codebeautify.org/yaml-validator
 
 openapi: "3.0.0"
 info:
