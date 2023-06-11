@@ -2,22 +2,22 @@
 # Author: Professor Krasso
 # Date: June 10, 2023
 # Modified By: Michael Christman
-# Description: Assignment 3.2 Describing the Composer API
+# Description: Assignment 3.2: Describing the Composer API
 
 openapi: "3.0.0"
 info:
-  title: Composer API
+  title: Composers API
   version: "1.0"
 paths: 
   /composers:
-    description: Return the output of the list of Composers
+    description: Return the output of the list of Composer objects
     get: 
       summary: View the full list of composers from MongoDB
       tags: 
         - Composers
       responses: 
         "200":
-          description: Composer Documents
+          description: Composer object documents
         "500":
           description: Server Exception
         "501":
@@ -41,7 +41,7 @@ paths:
                   type: string
       responses:
         "200":
-          description: Composer Added
+          description: Composer object added
         "500":
           description: Server Exception
         "501":
