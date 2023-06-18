@@ -1,13 +1,15 @@
 /**
-	Title: users.js
+    Title: users.js
     Author: Richard Krasso
-    Date: June 16th, 2022
+    Date: June 18th, 2022
     Modified by: Michael Christman
     Description: MongoDB Shell Scripts for the users collection.
+    Sources Used:
+    BUWEB 335 GitHub Repo (users.js script file)
  */
 
 /**
- * User document clean-up. 
+ * Cleaning up the users document. 
  */
 db.users.deleteOne({"email": "jbach@me.com"})
 db.users.deleteOne({"email": "lbeethoven@me.com"})
@@ -17,7 +19,7 @@ db.users.deleteOne({"email": "rwagner@me.com"})
 db.users.deleteOne({"email": "cdebussy@me.com"})
 
 /**
- * Create six User documents. 
+ * Creates all six user documents (composer objects). 
  */
 bach = {
 	"firstName": "Johann",
@@ -68,7 +70,7 @@ debussy = {
 }
 
 /**
- * Insert the newly created user documents.
+ * Inserts each of the six users into the database (composers)
  */
 db.users.insertOne(bach)
 db.users.insertOne(ludwig)
