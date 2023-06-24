@@ -8,66 +8,69 @@
 # Swagger API Editor: https://editor-next.swagger.io/
 # YAML API Editor: https://codebeautify.org/yaml-validator
 
-openapi: "3.0.0"
+openapi: 3.0.0
 info:
-  title: Composers API
-  version: "1.0"
-paths: 
+  title: Composer API
+  version: 1.0.0
+paths:
   /composers:
-    description: Return the output of the list of Composer objects
-    get: 
-      summary: View the full list of composers from MongoDB
-      tags: 
+    get:
+      summary: returns a list of composer documents
+      tags:
         - Composers
-      responses: 
-        "200":
-          description: Composer object documents
-        "500":
+      description: API for returning a list of composers from MongoDB Atlas
+      responses:
+        '200':
+          description: Composer documents
+        '500':
           description: Server Exception
-        "501":
+        '501':
           description: MongoDB Exception
+
     post:
-      summary: Add a new composer object to the list of composers
-      tags: 
+      summary: Creates a new composer object
+      tags:
         - Composers
+      description: API for adding new composer objects
       requestBody:
         description: Composer's Information
         content:
           application/json:
             schema:
-              required:
-                - firstName
-                - lastName
+              type: object
               properties:
-                firstName: 
+                firstName:
                   type: string
                 lastName:
                   type: string
+              required:
+                - firstName
+                - lastName
       responses:
-        "200":
-          description: Composer object added
-        "500":
+        '200':
+          description: User added
+        '500':
           description: Server Exception
-        "501":
+        '501':
           description: MongoDB Exception
+
   /composers/{id}:
-    description: Find a single Composer object through path 
-    parameters: 
-      - name: id
-        description: Composer ID Requested by User
-        in: path
-        required: true
-        schema:
-          type: string
     get:
-      summary: Search for Composer Object
-      tags: 
+      summary: returns a composer document
+      tags:
         - Composers
-      description: Returns an output for a single Composer object from MongoDB
-      responses: 
-        "200":
-          description: Composer Document in JSON
-        "500":
+      description: API for returning a single composer object from MongoDB
+      parameters:
+        - in: path
+          name: id
+          description: The composerId requested by the user.
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: Composer document in JSON format
+        '500':
           description: Server Exception
-        "501":
+        '501':
           description: MongoDB Exception
