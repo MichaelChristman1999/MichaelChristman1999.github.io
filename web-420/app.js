@@ -5,7 +5,6 @@
     Date: May 25th, 2023
     Description: App.js file for WEB-420 coursework weeks 1-9
 */
-
 const express = require('express');
 const http = require('http');
 const swaggerUi = require('swagger-ui-express');
