@@ -24,8 +24,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Setting up the routing for the /api endpoints
-const composersAPI = require('./routes/Hoitenga-composer-routes');
-const personAPI = require('./routes/Hoitenga-person-routes');
+const composersAPI = require('./routes/Christman-composer-routes');
+const personAPI = require('./routes/Christman-person-routes');
 
 app.use('/api', composersAPI);
 app.use('/api', personAPI);
