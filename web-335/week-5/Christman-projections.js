@@ -3,7 +3,7 @@
     Author: Professor Richard Krasso
     Date: June 23, 2023
     Description: For this week's assignment, we are building and executing queries for the WEB-335 users collection we created in MongoDB.
-    Modified by: Michae Christman
+    Modified by: Michael Christman
     Sources Used:
     MongoDB Query Guide (under Weekly Resources tab)
 */
