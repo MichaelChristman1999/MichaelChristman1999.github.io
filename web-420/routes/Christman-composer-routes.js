@@ -17,7 +17,7 @@ const express = require('express');
 const router = express.Router();
 
 // Require statement for Composer
-const Composer = require('../models/Hoitenga-composer');
+const Composer = require('../models/Christman-composer');
 
 /**
  * findAllComposers
