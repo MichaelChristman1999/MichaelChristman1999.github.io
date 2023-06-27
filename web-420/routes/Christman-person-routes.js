@@ -17,7 +17,7 @@ const express = require('express');
 const router = express.Router();
 
 // Require statement for Person
-const Person = require('../models/Hoitenga-person');
+const Person = require('../models/Christman-person');
 
 /**
  * findAllPersons
