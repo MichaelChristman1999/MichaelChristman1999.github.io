@@ -2,7 +2,7 @@
 Title: Christman-composer-routes.js
 Author: Richard Krasso
 Date: June 16th, 2023
-Modified By: Jennifer Hoitenga
+Modified By: Michael Christman
 Description: Composer routes JavaScript file
 Sources Used: 
 WEB 420 GitHub Repository
