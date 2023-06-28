@@ -11,29 +11,29 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
 const mongoose = require('mongoose');
 
-// Creating a new variable named app and assign it to express library.
+// Creates a new variable named app and assigns it to  the express library.
 const app = express();
 
 // Setting the port to 3000.
 const PORT = process.env.PORT || 3000;
 
-// Setting the app to use express.json().
+// Set the application to use express.json().
 app.use(express.json());
 
-// Setting the app to use url encoded.
+// Set the application to use .urlencoded.
 app.use(express.urlencoded({ extended: true }));
 
-// Setting up the routing for the /api endpoints
+// Routing for the composer and person /api endpoints
 const composersAPI = require('./routes/Christman-composer-routes');
 const personAPI = require('./routes/Christman-person-routes');
 
 app.use('/api', composersAPI);
 app.use('/api', personAPI);
 
-// Connecting to Mongo
-const CONN = 'mongodb+srv://web420_user:s3cr3t@bellevueuniversity.g473hiy.mongodb.net/web420DB';
+// Establish MongoDB connection
+const CONN =  'mongodb+srv://web420_user:s3cret2@bellevueuniversity.y9g9tgp.mongodb.net/web420DB';
 
-// Showing Server Connection Messages
+// Display message that server connection was successful
 mongoose
   .connect(CONN)
   .then(() => {
