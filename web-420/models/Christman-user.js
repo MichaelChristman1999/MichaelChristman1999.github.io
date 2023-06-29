@@ -1,11 +1,11 @@
 /*
 Title: Christman-user.js
 Author: Professor Richard Krasso
-Date: June 28, 2023
+Date: 6/29/2023
 Modified By: Michael Christman
 Description: Create the user API for the web-420 RESTful APIs class
 Sources Used: 
-BUWEB web 420 GitHub repo
+BUWEB Web 420 GitHub Repo
 Assignment 6 Instructions
 SoapUI Guide
 */
