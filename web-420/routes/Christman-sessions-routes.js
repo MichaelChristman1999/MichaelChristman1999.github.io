@@ -2,7 +2,7 @@
 Title: Christman-sessions-routes.js
 Author: Professor Richard Krasso
 Modified by: Michael Christman
-Date: 6/28/2023
+Date: 6/29/2023
 Description: Building the sessions routes file
 Sources Used:
 BUWEB web 420 GitHub repo
@@ -20,7 +20,7 @@ const router = express.Router();
 const bcrypt = require('bcryptjs');
 
 // Require statement for User
-const User = require('../models/Hoitenga-user');
+const User = require('../models/Christman-user');
 
 const saltRounds = 10;
 
