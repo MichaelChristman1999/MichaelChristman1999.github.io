@@ -1,5 +1,5 @@
 /*
-Title: Christman-user.js
+Title: Christman-users.js
 Author: Professor Richard Krasso
 Date: 6/29/2023
 Modified By: Michael Christman
