@@ -24,18 +24,21 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routing for the composer and person /api endpoints
-const composersAPI = require('./routes/Christman-composer-routes');
-const personsAPI = require('./routes/Christman-person-routes');
-const usersAPI = require('./routes/Christman-session-routes');
+const composersAPI = require('./routes/Christman-composers-routes');
+const personsAPI = require('./routes/Christman-persons-routes');
+const usersAPI = require('./routes/Christman-sessions-routes');
 
 // Establish MongoDB connection
 const CONN =  'mongodb+srv://web420_user:s3cret2@bellevueuniversity.y9g9tgp.mongodb.net/web420DB';
 
-// Display message that server connection was successful
+// Showing Server Connection Messages
 mongoose
-  .connect(CONN)
+  .connect(CONN, {
+    useUnifiedTopology: true,
+    useNewUrlParser: true,
+  })
   .then(() => {
-    console.log('Connection to MongoDB database was successful');
+    console.log('Connection to WEB 420 MongoDB database was successful');
   })
   .catch((err) => {
     console.log('MongoDB Error: ' + err.message);
