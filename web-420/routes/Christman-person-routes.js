@@ -1,5 +1,5 @@
 /*
-Title: Christman-person-routes.js
+Title: Christman-persons-routes.js
 Author: Professor Richard Krasso
 Date: June 23, 2023
 Modified By: Michael Christman
@@ -17,12 +17,12 @@ const express = require('express');
 const router = express.Router();
 
 // Require statement for Person
-const Person = require('../models/Christman-person');
+const Person = require('../models/Christman-persons');
 
 /**
  * findAllPersons
  * @openapi
- * /api/persons
+ * /api/persons:
  *   get:
  *     tags:
  *       - Persons
@@ -61,7 +61,7 @@ router.get('/persons', async (req, res) => {
 /**
  * createPerson
  * @openapi
- * /api/person:
+ * /api/persons:
  *   post:
  *     tags:
  *       - Person
@@ -87,7 +87,7 @@ router.get('/persons', async (req, res) => {
  *         description: MongoDB Exception
  */
 
-router.post('/person', async (req, res) => {
+router.post('/persons', async (req, res) => {
   try {
     const newPerson = {
       firstName: req.body.firstName,
