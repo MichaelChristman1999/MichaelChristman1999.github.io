@@ -1,5 +1,5 @@
 /*
-Title: Christman-person.js
+Title: Christman-persons.js
 Author: Professor Richard Krasso
 Date: June 23, 2023
 Modified By: Michael Christman
