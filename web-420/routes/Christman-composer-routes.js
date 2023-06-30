@@ -2,7 +2,7 @@
 Title: Christman-composer-routes.js
 Author: Richard Krasso
 Date: June 16th, 2023
-Modified By: Michael Christman
+Modified By: Jennifer Hoitenga
 Description: Composer routes JavaScript file
 Sources Used: 
 WEB 420 GitHub Repository
@@ -17,12 +17,12 @@ const express = require('express');
 const router = express.Router();
 
 // Require statement for Composer
-const Composer = require('../models/Christman-composer');
+const Composer = require('../models/Christman-composers');
 
 /**
  * findAllComposers
  * @openapi
- * /api/composers
+ * /api/composers:
  *   get:
  *     tags:
  *       - Composers
