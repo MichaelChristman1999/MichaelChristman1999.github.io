@@ -20,7 +20,7 @@ const router = express.Router();
 const bcrypt = require('bcryptjs');
 
 // Require statement for User
-const User = require('../models/Christman-user');
+const User = require('../models/Christman-users');
 
 const saltRounds = 10;
 
