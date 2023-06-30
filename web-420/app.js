@@ -25,10 +25,8 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routing for the composer and person /api endpoints
 const composersAPI = require('./routes/Christman-composer-routes');
-const personAPI = require('./routes/Christman-person-routes');
-
-app.use('/api', composersAPI);
-app.use('/api', personAPI);
+const personsAPI = require('./routes/Christman-person-routes');
+const usersAPI = require('./routes/Christman-session-routes');
 
 // Establish MongoDB connection
 const CONN =  'mongodb+srv://web420_user:s3cret2@bellevueuniversity.y9g9tgp.mongodb.net/web420DB';
@@ -60,6 +58,9 @@ const openapiSpecification = swaggerJsdoc(options);
 
 // Wiring openapiSpecification variable to app variable.
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
+app.use('/api', composersAPI);
+app.use('/api', personsAPI);
+app.use('/api', usersAPI);
 
 // Start the server and make it listen on port 3000.
 app.listen(PORT, () => {
