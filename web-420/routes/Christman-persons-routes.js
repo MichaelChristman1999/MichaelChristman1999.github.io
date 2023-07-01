@@ -3,12 +3,39 @@ Title: Christman-persons-routes.js
 Author: Professor Richard Krasso
 Date: June 23, 2023
 Modified By: Michael Christman
-Description: Creating the Persons API
+Description: Created the routes for the Persons API
 Sources Used: 
 BUWEB web-420 GitHub Repository
 Assignment 5 Instructions
 SoapUI Guide
 */
+
+// Require statement for Express
+const express = require('express');
+
+// Require statement for Router
+const router = express.Router();
+
+// Require statement for Person
+const Person = require('../models/Christman-persons');
+
+/**
+ * findAllPersons
+ * @openapi
+ * /api/persons:
+ *   get:
+ *     tags:
+ *       - Person
+ *     description: API for returning an array of person objects
+ *     summary: returns an array of persons in JSON format.
+ *     responses:
+ *       '200':
+ *         description: Array of person documents.
+ *       '500':
+ *         description: Server Exception.
+ *       '501':
+ *         description: MongoDB Exception.
+ */
 
 router.get('/persons', async (req, res) => {
   try {
