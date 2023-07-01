@@ -10,33 +10,6 @@ Assignment 5 Instructions
 SoapUI Guide
 */
 
-// Require statement for Express
-const express = require('express');
-
-// Require statement for Router
-const router = express.Router();
-
-// Require statement for Person
-const Person = require('../models/Christman-persons');
-
-/**
- * findAllPersons
- * @openapi
- * /api/persons:
- *   get:
- *     tags:
- *       - Persons
- *     description: API for returning an array of person objects.
- *     summary: returns an array of persons in JSON format.
- *     responses:
- *       '200':
- *         description: Array of person documents.
- *       '500':
- *         description: Server Exception.
- *       '501':
- *         description: MongoDB Exception.
- */
-
 router.get('/persons', async (req, res) => {
   try {
     Person.find({}, function (err, persons) {
