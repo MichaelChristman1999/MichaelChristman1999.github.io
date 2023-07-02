@@ -1,6 +1,6 @@
 /*
 Title: Christman-composer.js
-Author: Richard Krasso
+Author: Professor Richard Krasso
 Date: June 17th, 2023
 Modified By: Michael Christman
 Description: Composers JavaScript file
@@ -11,17 +11,17 @@ SoapUI Guide
 */
 
 
-// Require statement for mongoose
+// Mongoose require statement
 const mongoose = require('mongoose');
 
-// Assigning the mongoose.Schema object to a variable named Schema
+// Assigning the mongoose Schema object to a variable named Schema
 const Schema = mongoose.Schema;
 
-// Creating the composerSchema
+// Creating the composers Schema
 const composerSchema = new Schema({
     firstName: { type: String },
     lastName: { type: String }
 });
 
-// Exporting the model
+// Mongoose model export statement
 module.exports = mongoose.model("Composer", composerSchema);
