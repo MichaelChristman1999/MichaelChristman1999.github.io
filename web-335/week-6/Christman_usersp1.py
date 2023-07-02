@@ -6,34 +6,34 @@
     WEB 335 Python Guide
 """
 
-""" Import the MongoClient """
+""" MongoClient import statement """
 from pymongo import MongoClient
 
-""" Build a connection string """
-client = MongoClient('mongodb+srv://web335_user:s3cr3t@bellevueuniversity.g473hiy.mongodb.net/web335DBretryWrites=true&w=majority')
+""" Connection string to the web335 DB """
+client = MongoClient('mongodb+srv://web335_user:s3cret@bellevueuniversity.y9g9tgp.mongodb.net/web335DB')
 print(client)
 
-""" Adding a blank line for readability."""
+""" Extra print statement that creates a blank line for readability purposes """
 print()
 
-""" Configure a variable to access the web335 database """
+""" Variable that configures and allows access to the web335 database """
 db = client['web335DB']
 
-""" Display all documents in the user collection. """
+""" Displays all documents in the users collection """
 print('Display all documents in the users collection:')
 for user in db.users.find():
     print(user)
 
-""" Adding a blank line for readability."""
+""" Extra print statement that creates a blank line for readability purposes """
 print()
 
-""" Display a document where the employeeId is 1011. """
+""" Displays documents where the specific employeeId value is '1011'. """
 print('Display Employee ID 1011:')
 print(db.users.find_one({'employeeId': '1011'}))
 
-""" Adding a blank line for readability."""
+""" Extra print statement that creates a blank line for readability purposes """
 print()
 
-""" Display a document where the lastName is Mozart. """
+""" Displays documents where the lastName value is 'Mozart'. """
 print('Display user with the lastName of Mozart:')
 print(db.users.find_one({'lastName': 'Mozart'}))
