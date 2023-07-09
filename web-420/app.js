@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: true }));
 const composersAPI = require('./routes/Christman-composers-routes');
 const personsAPI = require('./routes/Christman-persons-routes');
 const usersAPI = require('./routes/Christman-sessions-routes');
-const usersAPI = require('./routes/Christman-node-shoppers-routes');
+const nodeShoppersAPI = require('./routes/Christman-node-shoppers-routes');
 
 // Establish MongoDB connection
 const CONN =  'mongodb+srv://web420_user:s3cret2@bellevueuniversity.y9g9tgp.mongodb.net/web420DB';
@@ -65,7 +65,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
 app.use('/api', composersAPI);
 app.use('/api', personsAPI);
 app.use('/api', usersAPI);
-app.use('/api', nodeShopperAPI);
+app.use('/api', nodeShoppersAPI);
 
 // Start the server and make it listen on port 3000.
 app.listen(PORT, () => {
