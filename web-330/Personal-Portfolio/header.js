@@ -30,7 +30,7 @@ class Header extends HTMLElement
                         <a href="db-diagrams.html">Database Diagrams</a>
                     </li>
                     <li class="navigation">
-                        <a href="unit-tests.html">API Unit Tests</a>
+                        <a href="api-tests.html">API Unit Tests</a>
                     </li>
                     <li class="navigation">
                         <a href="bucket-list.html">Bucket List</a>
