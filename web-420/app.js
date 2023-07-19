@@ -11,7 +11,7 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
 const mongoose = require('mongoose');
 
-// Creates a new variable named app and assigns it to  the express library.
+// Creates a new variable named app and assigns it to the express library.
 const app = express();
 
 // Setting the port to 3000.
@@ -28,7 +28,7 @@ const composersAPI = require('./routes/Christman-composers-routes');
 const personsAPI = require('./routes/Christman-persons-routes');
 const usersAPI = require('./routes/Christman-sessions-routes');
 const nodeShoppersAPI = require('./routes/Christman-node-shoppers-routes');
-const teamsAPI = require('./routes/Christman-team-routes');
+const teamsAPI = require('./routes/Christman-teams-routes');
 
 // Establish MongoDB connection
 const CONN =  'mongodb+srv://web420_user:s3cret2@bellevueuniversity.y9g9tgp.mongodb.net/web420DB';
