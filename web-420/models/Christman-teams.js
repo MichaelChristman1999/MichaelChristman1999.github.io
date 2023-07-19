@@ -27,7 +27,7 @@ const playersSchema = new Schema({
 const teamsSchema = new Schema({
   name: { type: String },
   mascot: { type: String },
-  players: [playerSchema],
+  players: [playersSchema],
 });
 
 // Exporting the model
