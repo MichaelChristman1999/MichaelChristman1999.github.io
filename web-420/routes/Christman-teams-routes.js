@@ -16,7 +16,7 @@ const express = require('express');
 const router = express.Router();
 
 // Require statement for Team model
-const Team = require('../models/Christman-team');
+const Team = require('../models/Christman-teams');
 
 /**
  * createTeam
