@@ -39,7 +39,7 @@ class Header extends HTMLElement
                 <details class="dropdown">
             <summary class="dropbtn">DevOps</summary>
             <div class="dropdown-content">
-              <a href="web-430/Hoitenga-tech-value-stream.html">Technology Value Stream</a>
+              <a href="web-430/Christman-tech-value-stream.html">Technology Value Stream</a>
             </div>
           </details>
             </div>
