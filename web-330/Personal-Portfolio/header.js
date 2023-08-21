@@ -40,6 +40,7 @@ class Header extends HTMLElement
             <summary class="dropbtn">DevOps</summary>
             <div class="dropdown-content">
               <a href="web-430/Christman-tech-value-stream.html">Technology Value Stream</a>
+              <a href="web-430/Christman-two-pizza-rule.html">Two Pizza Rule</a>
             </div>
           </details>
             </div>
