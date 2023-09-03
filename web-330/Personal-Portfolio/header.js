@@ -42,6 +42,7 @@ class Header extends HTMLElement
               <a href="web-430/Christman-tech-value-stream.html">Technology Value Stream</a>
               <a href="web-430/Christman-two-pizza-rule.html">Two Pizza Rule</a>
                <a href="web-430/Christman-testing.html">Testing</a>
+               <a href="web-430/Christman-ci.html">Continuous Integration</a>
             </div>
           </details>
             </div>
