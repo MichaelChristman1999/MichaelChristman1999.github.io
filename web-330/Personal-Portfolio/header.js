@@ -43,6 +43,7 @@ class Header extends HTMLElement
               <a href="web-430/Christman-two-pizza-rule.html">Two Pizza Rule</a>
                <a href="web-430/Christman-testing.html">Testing</a>
                <a href="web-430/Christman-ci.html">Continuous Integration</a>
+               <a href="web-430/Christman-pager-rotations.html">Pager Rotation Duties</a>
             </div>
           </details>
             </div>
