@@ -45,6 +45,7 @@ class Header extends HTMLElement
                <a href="web-430/Christman-ci.html">Continuous Integration</a>
                <a href="web-430/Christman-pager-rotations.html">Pager Rotation Duties</a>
                <a href="web-430/Christman-ca-processes.html">Change Approval Processes</a>
+                  <a href="web-430/Christman-tech-vs-business.html">Technology vs. Business Decisions</a>
             </div>
           </details>
             </div>
