@@ -39,13 +39,14 @@ class Header extends HTMLElement
                 <details class="dropdown">
             <summary class="dropbtn">DevOps</summary>
             <div class="dropdown-content">
-              <a href="web-430/Christman-tech-value-stream.html">Technology Value Stream</a>
-              <a href="web-430/Christman-two-pizza-rule.html">Two Pizza Rule</a>
-               <a href="web-430/Christman-testing.html">Testing</a>
-               <a href="web-430/Christman-ci.html">Continuous Integration</a>
-               <a href="web-430/Christman-pager-rotations.html">Pager Rotation Duties</a>
-               <a href="web-430/Christman-ca-processes.html">Change Approval Processes</a>
-                  <a href="web-430/Christman-tech-vs-business.html">Technology vs. Business Decisions</a>
+              <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-tech-value-stream.html">Technology Value Stream</a>
+              <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-two-pizza-rule.html">Two Pizza Rule</a>
+               <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-testing.html">Testing</a>
+               <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-ci.html">Continuous Integration</a>
+               <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-pager-rotations.html">Pager Rotation Duties</a>
+               <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-ca-processes.html">Change Approval Processes</a>
+                  <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-tech-vs-business.html">Technology vs. Business Decisions</a>
+                  <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-source-control-security.html">Security Controls in Shared Source Code Repositories</a>
             </div>
           </details>
             </div>
