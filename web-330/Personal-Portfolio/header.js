@@ -47,6 +47,7 @@ class Header extends HTMLElement
                <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-ca-processes.html">Change Approval Processes</a>
                   <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-tech-vs-business.html">Technology vs. Business Decisions</a>
                   <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-source-control-security.html">Security Controls in Shared Source Code Repositories</a>
+                   <a href="https://michaelchristman1999.github.io/web-330/Personal-Portfolio/web-430/Christman-change-management.html">Change Management</a>
             </div>
           </details>
             </div>
